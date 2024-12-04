@@ -1,0 +1,107 @@
+/* SELETOR GLOBAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header h2{
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;    
+  height: 60px;
+  width: 100%;
+  background-color: #121212;
+  color: #fff;
+}
+
+header a {
+color: #FFF;
+font-size: 20px;
+}
+
+header a + a{
+  margin-left: 10px;
+}
+
+table {
+  padding-left: 4px;
+  padding-right: 10px;
+  width: 70%;
+  align-items: center;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+table td .form{
+  padding: 8px;  /* Espaçamento entre as células */
+  vertical-align: top;
+}
+
+table td label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;  /* Faz com que os campos de entrada ocupem toda a largura da célula */
+  padding: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.container {  
+  display: flex;
+  justify-content : 'center';
+  align-items: center;  
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.espaco {
+  height: 20px;
+}
+
+.textContainer {
+  margin-bottom: '20px'
+}
+.videoHeadline {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);    
+  line-height: 1.3;
+  margin-bottom: 10px;  
+}
+
+.videoSubHeadline {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
